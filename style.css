@@ -1,0 +1,103 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    background-color: rgb(122, 82, 179);
+}
+nav ul{
+    display: flex;
+    margin-top: 0;
+    
+}
+.location-end{
+    margin-left: 45%;
+}
+.location-end a{
+    padding: 11px 26px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+ul li{
+    list-style: none;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(251, 254, 252);
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    
+}
+.half-width-1{
+    width: 48%;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: -2%;
+}
+.half-width-2{
+    width: 35%;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: -2%;
+}
+.half-width{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: -2%;
+}
+.caption{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    color: rgb(33, 37, 41);
+
+}
+.half-width-1 .caption-text, .text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(73,80,87);
+    margin-bottom: 6%;
+}
+.half-width-1 a{
+    text-decoration: none;
+}
+.btn-style-1{
+    color: #fff;
+    background-color: #7952b3;
+    padding: 18px 44px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.btn-style-2{
+    background-color: #fff;
+    color: rgb(73,80,87);
+    padding: 18px 44px;
+    border: 1px solid rgb(70, 83, 107);
+    border-radius: 6px;
+
+}
+.small-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    margin-top: 35px;
+}
+
+.video-player{
+    display: inline-block;
+    margin: 5% 20%;
+}
+/* ul li a:visited{
+    color: blue;
+} */
