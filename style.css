@@ -20,6 +20,10 @@ nav ul{
     border: 1px solid white;
     border-radius: 5%;
 }
+.location-end a:hover{
+    background-color: #fff;
+    color: black;
+}
 ul li{
     list-style: none;
     padding: 0 10px;
@@ -78,6 +82,12 @@ ul li a{
     border-radius: 6px;
     margin-right: 5px;
 }
+.btn-style-1:hover{
+    color: #7952b3;
+    background-color: #fff;
+    border: 1px solid #7952b3;
+    
+}
 .btn-style-2{
     background-color: #fff;
     color: rgb(73,80,87);
@@ -85,6 +95,10 @@ ul li a{
     border: 1px solid rgb(70, 83, 107);
     border-radius: 6px;
 
+}
+.btn-style-2:hover{
+    color: #fff;
+    background-color: #7952b3;
 }
 .small-text{
     font-size: 16px;
